@@ -436,4 +436,5 @@
  <tile id="707" terrain=",17,,"/>
  <tile id="708" terrain="17,17,,"/>
  <tile id="709" terrain="17,,,"/>
+ <tile id="883" terrain=",,,0"/>
 </tileset>
