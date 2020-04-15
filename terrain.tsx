@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.3" name="Terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+<tileset version="1.2" tiledversion="2020.04.10" name="Terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
  <editorsettings>
   <export target="terrain.tres" format="Godot"/>
  </editorsettings>
- <properties>
-  <property name="projectRoot" value="/home/konsumer/Documents/otherdev/tiled-example/"/>
- </properties>
  <image source="terrain.png" width="1024" height="1024"/>
  <terraintypes>
   <terrain name="Dark Dirt" tile="100"/>
@@ -436,5 +433,4 @@
  <tile id="707" terrain=",17,,"/>
  <tile id="708" terrain="17,17,,"/>
  <tile id="709" terrain="17,,,"/>
- <tile id="883" terrain=",,,0"/>
 </tileset>
