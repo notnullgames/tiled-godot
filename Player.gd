@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 export var speed = 200
-var velocity = Vector2()
+var velocity = Vector2.ZERO
 var direction = "down"
 
 func _ready():
@@ -26,7 +26,7 @@ func _physics_process(delta):
 	else:
 		velocity.y = 0
 	
-	if velocity.x == 0 and velocity.y == 0:
+	if velocity == Vector2.ZERO:
 		$anim.play("wait " + direction)
 	else:
 		$anim.play("walk " + direction)
